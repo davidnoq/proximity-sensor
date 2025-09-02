@@ -21,16 +21,20 @@ This kit provides an affordable way to upgrade those vehicles, improving awarene
 ---
 
 ## ⚙️ Design Overview
-- **Mounting:** Sensors are placed on the front bumper (center, left, right).
-- **Processing:** Arduino calculates distances from each sensor.
-- **Output:** LEDs + buzzer provide immediate driver feedback.
-- **Power:** Runs on car’s 5V supply (optionally solar-assisted).
+- **Mounting:** Sensors are placed on the front bumper (center, left, right).  
+- **Processing:** Arduino calculates distances from each sensor.  
+- **Output:** LEDs + buzzer provide immediate driver feedback.  
+- **Power:** Runs on car’s 5V supply (optionally solar-assisted).  
+
+**Design Sketches:**  
+![Car Sensor Sketch 1](drawings.jpeg)  
+
 
 ---
 
 ## 🔄 System Flow
-1. Sensors emit ultrasonic pulses and measure distance.
-2. Arduino identifies the nearest detected obstacle.
+1. Sensors emit ultrasonic pulses and measure distance.  
+2. Arduino identifies the nearest detected obstacle.  
 3. LEDs respond:
    - 🟢 **Green** → 60–40 cm  
    - 🟡 **Yellow** → 40–15 cm  
@@ -39,6 +43,10 @@ This kit provides an affordable way to upgrade those vehicles, improving awarene
    - Low pitch = Green  
    - Medium pitch = Yellow  
    - High pitch = Red  
+
+**Actual Breadboard with Sensors:**  
+![Breadboard Sensors](sensors.jpeg)  
+
 
 ---
 
