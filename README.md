@@ -27,7 +27,7 @@ This kit provides an affordable way to upgrade those vehicles, improving awarene
 - **Power:** Runs on car’s 5V supply (optionally solar-assisted).  
 
 **Design Sketches:**  
-![Car Sensor Sketch 1](drawings.jpeg)  
+![Car Sensor Sketch 1](drawings.jpg)  
 
 
 ---
@@ -45,7 +45,7 @@ This kit provides an affordable way to upgrade those vehicles, improving awarene
    - High pitch = Red  
 
 **Actual Breadboard with Sensors:**  
-![Breadboard Sensors](sensors.jpeg)  
+![Breadboard Sensors](sensors.jpg)  
 
 
 ---
